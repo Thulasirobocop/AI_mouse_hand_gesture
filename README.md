@@ -4,8 +4,8 @@ The main objective of the "AI_mouse_hand_gesture" project is automation.
 This is a computer vision project that tracks the forefinger and middle finger movement and moves the mouse pointer accordingly on the computer screen.
 MediaPipe is a cross-platform framework for building multimodal applied machine learning models using the data avaliable in audio and video format.
 The model detects and tracks all the fingers by using the "hand_tracking.py",and the code in this file is written in modular format so that it can be used anywhere by just calling it.
-In a single hand the above code can detect and track 21 points.<br>
-<image src="hand_landmarks.png" width=500><br> 
+In a single hand the above code can detect and track 21 points.<br><br>
+<image src="hand_landmarks.png" width=500><br><br>
 Here in this project we are intersted in finding the poistion of "Middle" and the "Index" finger.
 All the locations of the fingers are stored in an array.By indexing the position of 4 and 8 we can locate the position of "Thumb" and the "Index" finger.
 The location of the index finger is taken as a pointers location and when index finger is moved around, the mouse pointer also moves in the same way.(Note: this time only the index finger should be up and other 4 fingers should be closed down.

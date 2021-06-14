@@ -10,4 +10,4 @@ Here in this project we are intersted in finding the poistion of "Middle" and th
 All the locations of the fingers are stored in an array.By indexing the position of 4 and 8 we can locate the position of "Thumb" and the "Index" finger.
 Then we find the distance between the fingers by using the formula ((x2-x1)^2+(y2-y1)^2)^(0.5).
 When the distance between those to becomes less than 40 we assume that a select is made and the that gets reflected on the computer as well.
-Click[here](https://github.com/Thulasirobocop/AI_mouse_hand_gesture/blob/main/AI_mouse_recordings.mp4?raw=true) to view my recording on this project.
+Click [here](https://github.com/Thulasirobocop/AI_mouse_hand_gesture/blob/main/AI_mouse_recordings.mp4?raw=true) to view my recording on this project.
